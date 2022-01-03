@@ -4,8 +4,8 @@ xcode-select --install
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# # Install ohmyzsh
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Create bash_profile
 touch ~/.bash_profile
@@ -45,13 +45,18 @@ source ~/.bash_profile
 mysql --version
 
 # Docker
-brew cask install docker
+brew install --cask docker
 
 # Install apps
-brew cask install google-chrome
-brew cask install firefox
-brew cask install visual-studio-code
-brew cask install flycut
-brew cask install gifox
-brew cask install notion
-brew cask install postman
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask visual-studio-code
+brew install --cask flycut
+brew install --cask gifox
+brew install --cask notion
+brew install --cask postman
+
+# Disabling the default acceleration curve in Mac OS X
+brew install --cask steelseries-exactmouse-tool
+
+brew install --cask macs-fan-control
