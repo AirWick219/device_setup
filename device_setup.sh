@@ -57,6 +57,14 @@ brew install --cask notion
 brew install --cask postman
 
 # Disabling the default acceleration curve in Mac OS X
+brew tap homebrew/cask-drivers
 brew install --cask steelseries-exactmouse-tool
 
 brew install --cask macs-fan-control
+brew install --cask grammarly
+
+brew install --cask exodus
+brew install --cask drawio
+brew install --cask vlc
+brew install --cask plex
+brew install --cask rectangle
