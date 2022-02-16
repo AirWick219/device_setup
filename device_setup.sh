@@ -68,3 +68,5 @@ brew install --cask drawio
 brew install --cask vlc
 brew install --cask plex
 brew install --cask rectangle
+
+brew install --cask mysqlworkbench
