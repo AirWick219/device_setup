@@ -70,3 +70,11 @@ brew install --cask plex
 brew install --cask rectangle
 
 brew install --cask mysqlworkbench
+
+
+# M1
+# install rosetta2
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+# install homebrew then we can do arch -x86_64 brew install <package>
+arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
