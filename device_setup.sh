@@ -1,1 +1,3 @@
 brew -v
+
+source ~/.zshrc
